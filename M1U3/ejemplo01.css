@@ -7,13 +7,11 @@ background-color: rgb(115, 255, 0);
 }
 
 p{
-    color: blue;
-    text-shadow: 4px 4px 2px rgb(red, green, blue) (0,0,0,0.6);
+    color: rgb(103, 46, 117);
 }
 
 div{
     width: 200px;
     height: 200px;
-    background-color: aqua;
-    box-shadow: 24px 27px 13px 2px rgb(red, green, blue) (0,0,0,0.81);
+background-color: brown;
 }
