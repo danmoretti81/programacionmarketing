@@ -6,18 +6,18 @@
     <title>m1u4tarea2</title>
 </head>
 <body>
-
-    <textarea name="" id="texto" cols="30" rows="10"></textarea>
-    <div>Caracteres: <span id="contar"></span></div>
-
     <script>
-        var texto = document.getElementById('texto');
-        var contar = document.getElementById('contar');
-        
-        texto.addEventListener('keyup', function(){
-            contar.innerText = texto.value.length;
+		var numeros = [100, 56, 1245, 3, 89, 9];
+		
+		var mayor = 0;
+		for (var i = 0; i < numeros.length; i++) {
+			if (numeros[i] > mayor) {
+				mayor = numeros[i];
+			}
+		}
 
-        })
+		console.log('el mayor de ' + numeros + ' es ' + mayor);
+ 
     </script>
 </body>
 </html>
