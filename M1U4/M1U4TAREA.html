@@ -7,14 +7,16 @@
 </head>
 <body>
     <script>
-		var metros = 35000;
+		var metros = 5100;
 		var transporte = '';
 
 		if (metros > 0 && metros <= 1000) {
 			transporte = 'pie';
-		} else if (metros > 1000 && metros <= 10000) {
+		} else if (metros > 1000 && metros <= 5000) {
 			transporte =  'ir en bicicleta';
-		} else if (metros > 10000 && metros <= 30000) {
+		}else if (metros > 5000 && metros <= 10000) {
+			transporte =  'moto';
+		}else if (metros > 10000 && metros <= 30000) {
 			transporte =  'colectivo';
 		} else if (metros > 30000 && metros <= 100000) {
 			transporte =  'auto';
