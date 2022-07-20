@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>m2u5Tarea1</title>
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="cuadrado verde" onclick="cambiarFondo('green')"></div>
+        <div class="cuadrado azul" onclick="cambiarFondo('blue')"></div>
+        <div class="cuadrado rojo" onclick="cambiarFondo('red')"></div>
+    </div>
+
+    <style>
+        .contenedor {
+            display: flex;
+        }
+
+        .cuadrado {
+            height: 100px;
+            width: 100px;
+        }
+
+        .rojo {
+            background-color: rgb(243, 23, 16);
+        }
+
+        .azul {
+            background-color: rgb(23, 56, 244);
+        }
+
+        .verde {
+            background-color: #15a45a;
+        }
+    </style>
+
+    <script>
+        function cambiarFondo(color) {
+            document.querySelector('body').style.background = color;
+        }
+    </script>
+
+</body>
+</html>
