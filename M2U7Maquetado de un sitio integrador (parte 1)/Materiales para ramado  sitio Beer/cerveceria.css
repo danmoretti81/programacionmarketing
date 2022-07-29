@@ -5,3 +5,16 @@ font-family: 'Ibarra Real Nova', serif;
 footer {
     background-color: darkgray;
 }
+
+h1
+h2{
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.hero {
+    background: url(header.jpg) no-repeat;
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 600px;
+    color: white;
+}
